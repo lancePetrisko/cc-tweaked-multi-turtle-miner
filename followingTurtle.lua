@@ -7,7 +7,7 @@ print(length)
 
 if length == length  then
     rideToTheDeath = true
-    print("RIDING TO THE DEATH!!!!")
+    print("Going until I run out of fuel!")
 end
 
 while rideToTheDeath == true do
@@ -15,7 +15,7 @@ while rideToTheDeath == true do
         print("Not moving.")
 
     else
-        print("MOVEEEEE")
+        print("MOVE")
         turtle.forward()
     end
 
@@ -23,4 +23,5 @@ while rideToTheDeath == true do
         --turtle.forward()
         --print("MOVEEEEE")
     --end
+
 end
